@@ -124,7 +124,7 @@ function App() {
     axios
    .get(`${BASEURL}/client/all_question/${discussionID}`)
    .then((response)=>{
-    console.log(response);
+    console.log("answers :",response);
    }).catch((err)=>{
     console.log(err)
     setDiscusson("No Disussions yet")
@@ -132,7 +132,6 @@ function App() {
    setLoading(false)
   },[discussionID])
 
-  const Dbms=9;
   const data = {
     labels,
     datasets: [

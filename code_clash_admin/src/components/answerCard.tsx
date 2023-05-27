@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Faculty = () => {
+export const AnswerCard = () => {
   return (
 <button className="w-full text-left py-2 focus:outline-none focus-visible:bg-indigo-50">
       <div className="flex items-center justify-around">
