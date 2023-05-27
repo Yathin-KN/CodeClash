@@ -22,7 +22,7 @@ import {
 import { Bar } from 'react-chartjs-2';
 import { Questioncard } from "./components/questioncard";
 
-const BASEURL='https://2778-2401-4900-33b4-6b01-7911-b24f-5e83-2877.in.ngrok.io'
+const BASEURL='https://faaf-106-51-8-242.in.ngrok.io'
 ChartJS.register(
   CategoryScale,
   LinearScale,
